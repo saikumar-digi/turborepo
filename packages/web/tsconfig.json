@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "lib": ["dom","DOM.Iterable","esnext"],
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "types":["vite/client"],
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "moduleResolution":"Node",
+      "allowUmdGlobalAccess": true,
+      "jsx":"preserve"
+    }
+}
